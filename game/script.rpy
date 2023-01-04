@@ -56,8 +56,8 @@ label start:
     blank "The mysterious figure gets off of you"
     blank "You look around the room.  It appears to be a bedroom of some sort."
     blank "You proceed to fumble out of the bed and get back on your feet"
-    
     show eileen happy
+    blank "You see this mysterious figure in full"
     qm "Seggs?"
     j "Sure"
     scene seggs
