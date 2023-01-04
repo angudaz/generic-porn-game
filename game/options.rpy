@@ -151,6 +151,7 @@ define config.save_directory = "GenericPornGame-1672794544"
 ## The icon displayed on the taskbar or dock.
 
 define config.window_icon = "gui/window_icon.png"
+define config.menu_include_disabled = True
 
 
 ## Build configuration #########################################################

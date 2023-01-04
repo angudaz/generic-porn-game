@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 73, in script
+    menu:
+SyntaxError: invalid syntax (game/script.rpy, line 119)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 73, in script
+    menu:
+  File "D:\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 1903, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "D:\Renpy\renpy-8.0.3-sdk\renpy\exports.py", line 976, in menu
+    condition = renpy.python.py_eval(condition)
+  File "D:\Renpy\renpy-8.0.3-sdk\renpy\python.py", line 1090, in py_eval
+    code = py_compile(code, 'eval')
+  File "D:\Renpy\renpy-8.0.3-sdk\renpy\python.py", line 1027, in py_compile
+    raise e
+  File "D:\Renpy\renpy-8.0.3-sdk\renpy\python.py", line 979, in py_compile
+    raise orig_e
+  File "D:\Renpy\renpy-8.0.3-sdk\renpy\python.py", line 972, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 119)
+
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.3.22090809
+Generic Porn Game 1.0
+Wed Jan  4 15:01:46 2023

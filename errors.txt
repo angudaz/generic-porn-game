@@ -2,7 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 40: Tab characters are not allowed in Ren'Py scripts.
+File "game/script.rpy", line 21: expected statement.
+    boolean known_name
+                      ^
+
+File "game/script.rpy", line 22: expected statement.
+    boolean memory
+                  ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Jan  3 23:43:10 2023
+Wed Jan  4 14:50:39 2023
