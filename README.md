@@ -1,4 +1,4 @@
-# generic-porn-game
+# generic porn game
 cool porn game
 
 # notes for zex
@@ -98,3 +98,33 @@ label gameover:
     "Game over"
     return
 ```
+
+# Plot
+```
+Main Character List:
+    James the Jame AKA James
+    Mary Lisa the Demon Slayer (real) AKA Mary Lisa the Demon Slayer (fake) AKA Mary
+    Patricia the Pratricisnt AKA Pat
+    Jennifer the Jennifurt AKA Fer
+    Guest Star Bunger AKA Pope Bunger
+    
+Places:
+    Hadleigh (Village)
+    Orrinshire (City)
+    Mountmend (Village)
+    Wolfpine (Abandoned Village)
+    Aramoor (Village, overran by Orcs)
+    Whitebridge (Bridge dividing the two islands, captured by the Humans)
+    Peltragow (Village, owned by Orcs)
+    Oakheart (City, owned by Orcs)
+    Putlochry (Village, overran by Elves)
+    Furness (Village, overran by Elves)
+```
+
+Story in order of events:
+
+The main character is James the Jame.  He wakes up in a house he doesn't know by a person he doesn't know.  In reality, he just forgot everything about himself, his past, etc.  This is due to an attack that was executed on him by a group of succubi.  His "party member", Mary Lisa the Demon Slayer (real), "saved him" from the succubi and brought him to his house in Hadleigh, banking on the fact that he forgot everything by saying its her house.  Mary has effectively hit em' with that good succ, wrung him dry knowing that he'd forget everything, and is now faking a story that James doesn't know to keep sexing him FOR FREE while taking all his shit.
+
+Story in full:
+
+The year is 728.
