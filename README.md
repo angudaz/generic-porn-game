@@ -53,7 +53,11 @@ label text2:
     "im text"
 
 # Note: If you want characters to speak, define them like this:
-# define (something to identify them, this will be used in the code, dont keep the brackets and edit all this shit out you tard.) = Character("Name")
+# define (something to identify them, replace text and remove brackets) = Character("Name")
+#
+# you can also define the "variable" in "menu:" so its a temporary variable.  
+# Dont do it if it's important to the entire story (Main characters,
+# love meters, health, mana, etc.) because its only defined in that menu.
 ```
 
 # Ideas
