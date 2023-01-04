@@ -3,6 +3,7 @@ cool porn game
 
 # notes for zex
 GIT PULL BEFORE EDITING SHIT UNLESS WE'RE IN A CODESPACE.  GIT WONT LET YOU PUSH OTHERWISE.
+
 GIT COMMIT -M "COMMENT" BEFORE PUSHING.  GIT WONT LET YOU PUSH OTHERWISE.
 
 If you want to make a true/false statement, go to where everything is defined and put it under the current true/false statements.
