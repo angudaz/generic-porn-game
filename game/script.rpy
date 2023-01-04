@@ -136,7 +136,7 @@ label start:
             "No other questions":
                 if known_name:
                     jf "I believe I dont have any other questions."
-                    m "Ok, James."
+                    m "Okay.  In that case..."
                     jump options1end
                 else:
                     qm "I believe I dont have any other questions."
@@ -147,6 +147,8 @@ label start:
                     m "Did you not know that?"
                     jf "No."
                     m "Well, maybe you should've asked about it."
+                    m "..."
+                    m "Anyways..."
                     jump options1end
 label options1end:
     qm "Seggs?"
