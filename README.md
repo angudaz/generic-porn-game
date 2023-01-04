@@ -7,8 +7,7 @@ If you're making choices like questions, make a label named whatever (label (nam
 
 example:
 
-
-define variable = False
+```define variable = False
 Capitalization matters here btw
 
 
@@ -46,3 +45,5 @@ label text:
 It'll continue with no choices when it jumps to the line below.
 label text2:
     "im text"
+```
+
