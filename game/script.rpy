@@ -72,7 +72,7 @@ label start:
     label options1:
         menu:
         # 8 spaces because its a diff branch
-            "Choose"
+            "Choose a question"
 
         # Colon and more spaces after cause its a diff branch (again). 12 for question, 16 for known_name if/else, 20 for dialogue)
         # Ill add images later -josh
