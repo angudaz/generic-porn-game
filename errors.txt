@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 11: positional argument follows keyword argument
+    Movie(play="VID20211228WA0001.webm", size=1920,1080)
+                                                        ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Tue Jan  3 20:48:46 2023
