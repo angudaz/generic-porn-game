@@ -6,8 +6,11 @@ If you want to make a true/false statement, go to where everything is defined an
 If you're making choices like questions, make a label named whatever (label (name):), make a menu (menu:), and follow it with text
 
 example:
+
+
 define variable = False
 Capitalization matters here btw
+
 
 This is the label you jump back to
 label text:
