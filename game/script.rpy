@@ -20,8 +20,8 @@ image the end = Movie(play="VID20211228WA0001.webm", size=(1920, 1080))
 #these last two are for options1. refer to line 73
 define known_name = False
 define memory =  False
-# The game starts here.
 
+#You boot the game
 label splashscreen:
     scene black
     with Pause(1)
@@ -30,19 +30,25 @@ label splashscreen:
     with Pause(2)
 
     hide text with dissolve
+    play sound [ "<silence 2.9>", "audio/vineboom.mp3" ]
     with Pause(3)
 
     show text "{b}Generic Porn Game{/b}"
     with Pause(2)
 
     hide text with dissolve
-    with Pause(3)
+    stop sound
+    with Pause(2)
 
     return
 
+#You start the game
 label start:
     # Intro
-
+    stop audio
+    stop music
+    stop sound
+    # need to add these cause too lz to find out what channel main menu music is on
     scene black
     blank "You are currently surrounded in a void of darkness."
     blank "You have no idea where you are."
@@ -127,7 +133,7 @@ label start:
                     m "Wow.  Cant believe you dont even remember your own party member."
                     qm "Sorry, Im just trying to remember stuff right now."
                     jump options1
-            "No other questions.":
+            "No other questions":
                 if known_name:
                     jf "I believe I dont have any other questions."
                     m "Ok, James."
