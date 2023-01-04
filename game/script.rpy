@@ -34,7 +34,7 @@ label splashscreen:
 label start:
 
     scene black
-    blank "You wake up in a "
+    blank "You wake up in a nigger faggot"
     show eileen happy
     qm "Seggs?"
     show eileen movie
