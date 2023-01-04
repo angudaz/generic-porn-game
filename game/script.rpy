@@ -48,16 +48,20 @@ label start:
     blank "The voice starts to get gradually louder."
     qm "Wake up"
     blank "You begin to feel like the dark void is moving"
+    # scene white
     blank "{b}{i}SLAP{/i}{/b}"
     blank "The dark void disappears as you begin to regain conciousness"
     qm "Finally"
-    blank "You see a mysterious figure on top of you"
+    blank "You see a mysterious figure on top of you.  You cant make out any notable features due to the sheer force of her slap causing your vision to be messed up."
+    blank "Get fucked, {b}IDIOT!{/b}"
     qm "You've been knocked out for awhile."
     blank "The mysterious figure gets off of you"
+    # scene bedroom
     blank "You look around the room.  It appears to be a bedroom of some sort."
-    blank "You proceed to fumble out of the bed and get back on your feet"
+    blank "You proceed to fumble out of the bed and get back on your feet."
     show eileen happy
     blank "You see this mysterious figure in full"
+    #first option here
     qm "Seggs?"
     j "Sure"
     scene seggs
