@@ -2,9 +2,10 @@
 cool porn game
 
 # notes for zex
-GIT PULL BEFORE EDITING SHIT UNLESS WE'RE IN A CODESPACE.  GIT WONT LET YOU PUSH OTHERWISE.
+GIT PULL BEFORE EDITING SHIT UNLESS WE'RE IN A CODESPACE.  GIT WONT LET YOU PUSH OTHERWISE AND/OR YOU'LL EDIT SHIT THAT I MIGHT'VE PUT.
 
 GIT COMMIT -M "COMMENT" BEFORE PUSHING.  GIT WONT LET YOU PUSH OTHERWISE.
+
 
 If you want to make a true/false statement, go to where everything is defined and put it under the current true/false statements.
 If you're making choices like questions, make a label named whatever (label (name):), make a menu (menu:), and follow it with text
@@ -13,7 +14,7 @@ example:
 
 ```
 define variable = False
-# Capitalization matters here btw
+# Capitalization matters here btw.  This is for choices later.
 
 
 # This is the label you jump back to
@@ -55,3 +56,41 @@ label text2:
 # define (something to identify them, this will be used in the code, dont keep the brackets and edit all this shit out you tard.) = Character("Name")
 ```
 
+# Ideas
+
+Maybe a love meter that's just a number that can be added/subtracted for extra options like sex?
+
+Itll work something like this:
+```
+define lovemeter = 0
+
+label choices:
+    menu:
+        "Choose smth idiot"
+        
+        "Sex":
+            # This adds one to "lovemeter"
+            $ lovemeter += 1
+            jump choices
+        "No sex":
+            # This removes one to "lovemeter"
+            $ lovemeter -= 1
+            jump choices
+        # This will only allow you to megasex if the lovemeter is greater than or equal to 10
+        "Mega sex" if lovemeter >= 10:
+            $ lovemeter += 100
+            jump choices
+        "Nigga sex":
+            $ lovemeter -=300
+            jump gameover
+        "End":
+            jump choicesend
+            
+label choicesend:
+    "sex"
+    return
+label gameover:
+    "You're really gonna nigga sex me?  I cant fucking believe this"
+    "Game over"
+    return
+```
