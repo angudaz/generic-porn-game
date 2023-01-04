@@ -46,5 +46,8 @@ label text:
 # It'll continue with no choices when it jumps to the line below.
 label text2:
     "im text"
+
+# Note: If you want characters to speak, define them like this:
+# define (something to identify them, this will be used in the code, dont keep the brackets and edit all this shit out you tard.) = Character("Name")
 ```
 
