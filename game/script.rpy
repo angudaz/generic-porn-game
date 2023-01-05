@@ -68,6 +68,7 @@ label start:
     blank "The mysterious figure gets off of you"
     # scene bedroom (add blur effect)
     blank "You look around the room.  It appears to be a bedroom of some sort."
+    play sound "audio/stumbleoutofbed.mp3" noloop
     blank "You proceed to fumble out of the bed and get back on your feet as you regain your vision."
     # scene bedroom (no blur)
     show eileen happy

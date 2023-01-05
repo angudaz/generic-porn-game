@@ -2,13 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 21: expected statement.
-    boolean known_name
-                      ^
+File "game/script.rpy", line 70: expected end of line
+    queue sound noloop "audio/stumbleoutofbed.mp3"
+                       ^
 
-File "game/script.rpy", line 22: expected statement.
-    boolean memory
-                  ^
+File "game/script.rpy", line 72: play requires a file
+    play sound
+              ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Jan  4 14:50:39 2023
+Thu Jan  5 06:17:16 2023
