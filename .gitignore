@@ -2,9 +2,9 @@
 *.rpyb
 *.rpymc
 *.save
-game/saves/navigation.json
-game/saves/persistent
+game/saves
 log.txt
 log.txt.mak
 errors.txt
 traceback.txt
+game/cache
