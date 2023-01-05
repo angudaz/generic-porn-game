@@ -158,7 +158,6 @@ label options1end:
     j "damn, that pussy fire"
     scene seggsrancid
     j "damn, nevermind that pussy rancid"
-    blank "nigger"
 
     # End
 
