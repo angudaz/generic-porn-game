@@ -68,6 +68,7 @@ label start:
     blank "The mysterious figure gets off of you"
     # scene bedroom (add blur effect)
     blank "You look around the room.  It appears to be a bedroom of some sort."
+    play sound "audio/stumbleoutofbed.mp3" noloop
     blank "You proceed to fumble out of the bed and get back on your feet as you regain your vision."
     # scene bedroom (no blur)
     show eileen happy
@@ -82,6 +83,8 @@ label start:
 
         # Colon and more spaces after cause its a diff branch (again). 12 for question, 16 for known_name if/else, 20 for dialogue)
         # Ill add images later -josh
+            "Saul Goodman":
+                jump saulgoodmanend
             "Where am I?":
                 if known_name:
                     jf "Where am I?"
@@ -159,12 +162,7 @@ label options1end:
     scene seggsrancid
     j "damn, nevermind that pussy rancid"
 
-    # End
-
+label saulgoodmanend:
     show the end
-    m "The End"
-
-    # Make sure to NOT USE RETURN unless its at the end.
-    # The game will end if you put return.
-
+    blank "You've successfully destroyed everyone in the game.  GGWP"
     return
