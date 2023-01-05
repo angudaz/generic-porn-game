@@ -4,3 +4,7 @@
 *.save
 game/saves/navigation.json
 game/saves/persistent
+log.txt
+log.txt.mak
+errors.txt
+traceback.txt
