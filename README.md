@@ -13,3 +13,6 @@ make sure to use spaces, renpy doesn't like indents.
 
 # disclaimer
 i know my code is shit, please dont point it out unless you're trying to help me fix it LOL
+
+# thank you
+thanks to anyone that helps out with the development of the game.  i appreaciate it
